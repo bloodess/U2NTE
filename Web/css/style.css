@@ -4,31 +4,6 @@
   margin-left : 25%;
   margin-top : 10px;
 }
-/* @media (min-width: 0px) and (max-width: 1000px) {
-    .nav-item{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-#page-team .card-title
-{
-  text-align : center;
-}
-
-#page-team h1
-{
-  text-align: center;
-}
-
-    
-    .nav{
-        padding: 0.5%;
-        margin-top: 0%;
-        margin-right: 0%;
-        margin-left: 0%;
-
-    }
-} */
 
 * {
     margin: 0;
@@ -50,7 +25,10 @@ body{
 } */
 
 .logo{
+    display: block;
     width: 50px;
+    margin: auto;
+    margin-top: 1%;
 }
 
 li{
@@ -80,4 +58,13 @@ li{
 
 .navbar-toggler{
     color: deepskyblue;
-} */
+}
+*/
+
+.row{
+    margin: 0px !important;
+}
+
+.img-fluid{
+    margin-bottom: 6%;
+}
