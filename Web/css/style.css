@@ -39,6 +39,7 @@
 #page-team p
 {
   font-size : 0.9rem;
+  color : white;
 }
 
 * {
@@ -56,6 +57,11 @@ body{
 nav
 {
   background-color : #2A5294;
+}
+
+nav a:hover
+{
+  color : #e12d4b;
 }
 
 .logo{
@@ -121,4 +127,3 @@ li{
 p{
     color: #335e1e;
 }
-
