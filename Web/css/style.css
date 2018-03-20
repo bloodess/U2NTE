@@ -1,8 +1,28 @@
+#page-team .card
+{
+  box-shadow: 5px 5px 5px black;
+}
+
 #page-team .card img
 {
   width : 50%;
   margin-left : 25%;
   margin-top : 10px;
+}
+
+#page-team .card-title, #page-team h1, #page-team .card-footer
+{
+  text-align : center;
+}
+
+#page-team .card-footer a span
+{
+  transition: 250ms;
+}
+
+#page-team .show-div
+{
+  transform: rotate(180deg);
 }
 
 * {
@@ -18,7 +38,7 @@ body{
 
 .logo{
     display: block;
-    width: 50px;
+    width: 100px;
     margin: auto;
     margin-top: 1%;
     margin-bottom: 1%;
