@@ -1,6 +1,12 @@
 #page-team .card
 {
   box-shadow: 5px 5px 5px black;
+  background-color: #2A5294;
+}
+
+#page-team .card li
+{
+  background-color : #2A5294;
 }
 
 #page-team .card img
@@ -13,6 +19,11 @@
 #page-team .card-title, #page-team h1, #page-team .card-footer
 {
   text-align : center;
+}
+
+#page-team .card-footer
+{
+  background-color : #203A66;
 }
 
 #page-team .card-footer a span
@@ -38,7 +49,13 @@
 }
 
 body{
-    background-color: #6C757D !important;
+    /*background-color: #6C757D !important;*/
+    background-color: #99b4cd !important;
+}
+
+nav
+{
+  background-color : #2A5294;
 }
 
 .logo{
