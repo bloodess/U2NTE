@@ -104,7 +104,8 @@ li{
 }
 
 .col-6{
-    background-color: #fff;
+    background-color: #89c543;
+    box-shadow:  5px 5px 5px black;
     padding: 15px;
 }
 .image-companie-de-provence{
@@ -115,5 +116,9 @@ li{
 
 .texte{
     text-align: center;
+}
+
+p{
+    color: #335e1e;
 }
 
