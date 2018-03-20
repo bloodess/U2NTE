@@ -3,40 +3,48 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>U2NTE</title>
+    <title>U2NTE - La team</title>
+
+    <!--JQUERY-->
+    <script src="assets/JQuery/jquery-3.3.1.min.js"></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.css">
+    <script src="assets/Bootstrap/js/bootstrap.js"></script>
+
+    <!--IONICONS-->
+    <link rel="stylesheet" href="assets/ionicons-2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
-    <img class="logo" src="img/logo.png" href="#">
-    <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <center><img class="logo" src="img/logo.png" href="#"></center>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <ul class="navbar-nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link text-white active" href="#">Accueil
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Team</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Photos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Projets</a>
-                </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projet</a>
+              </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
 
+<!-- Carroussel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -63,6 +71,9 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+<!-- Carroussel -->
+
+
 
     <div class="jumbotron">
         <h1 class="display-4">Workshop!</h1>

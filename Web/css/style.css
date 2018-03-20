@@ -41,14 +41,13 @@ body{
     background-color: #6C757D !important;
 }
 
-.navbar{
+/* .navbar{
     padding: 0.5%;
     margin-top: 1%;
     margin-right: 14%;
     margin-left: 14%;
     background-color: #31353D;
-
-}
+} */
 
 .logo{
     width: 50px;
@@ -59,10 +58,10 @@ li{
     margin-right: 8%;
 }
 
-.nav-item:hover{
+/* .nav-item:hover{
     background-color: #435779;
+} */
 
-}
 #carouselExampleIndicators {
     width: 72%;
     margin-left: 14%;
@@ -75,10 +74,10 @@ li{
     margin-top: 1%;
 }
 
-.navbar-nav .nav-link {
+/* .navbar-nav .nav-link {
     padding-left: 10px !important;
 }
 
 .navbar-toggler{
     color: deepskyblue;
-}
+} */
