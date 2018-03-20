@@ -25,6 +25,11 @@
   transform: rotate(180deg);
 }
 
+#page-team p
+{
+  font-size : 0.9rem;
+}
+
 * {
     margin: 0;
     padding: 0;
