@@ -1,12 +1,12 @@
 #page-team .card
 {
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px #585858;
   background-color: #2A5294;
 }
 
 #page-team .card li
 {
-  background-color : #2A5294;
+  /*background-color : #2A5294;*/
 }
 
 #page-team .card img
@@ -16,6 +16,14 @@
   margin-top : 10px;
 }
 
+#page-team img
+{
+  width : 50%;
+  margin-left : 25%;
+  margin-top : 10px;
+  border-radius : 50%;
+}
+
 #page-team .card-title, #page-team h1, #page-team .card-footer
 {
   text-align : center;
@@ -23,7 +31,7 @@
 
 #page-team .card-footer
 {
-  background-color : #203A66;
+  /*background-color : #203A66;*/
 }
 
 #page-team .card-footer a span
@@ -39,19 +47,20 @@
 #page-team p
 {
   font-size : 0.9rem;
-  color : white;
+  /*color : white;*/
 }
 
 * {
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 body{
     /*background-color: #6C757D !important;*/
-    background-color: #99b4cd !important;
+    /*background-color: #99b4cd !important;*/
+    background-color : #e8e8e8 !important;
 }
 
 nav
@@ -83,6 +92,13 @@ li{
     margin-top: 1%;
 }
 
+.image
+{
+  background-color: #383838;
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
 .jumbotron{
     margin-left: 14%;
     margin-right: 14%;
@@ -111,7 +127,7 @@ li{
 
 .col-6{
     background-color: #89c543;
-    box-shadow:  5px 5px 5px black;
+    box-shadow:  5px 5px 5px #585858;
     padding: 15px;
 }
 .image-companie-de-provence{
