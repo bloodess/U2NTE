@@ -131,3 +131,12 @@ li{
 .texte{
     text-align: center;
 }
+
+B{
+   font-size: 28px;
+}
+
+p{
+    font-size: 17px;
+    padding: 18px;
+}
