@@ -4,11 +4,6 @@
   background-color: #2A5294;
 }
 
-#page-team .card li
-{
-  /*background-color : #2A5294;*/
-}
-
 #page-team .card img
 {
   width : 50%;
@@ -29,11 +24,6 @@
 #page-team .card-title, #page-team h1, #page-team .card-footer
 {
   text-align : center;
-}
-
-#page-team .card-footer
-{
-  /*background-color : #203A66;*/
 }
 
 #page-team .card-footer a span
@@ -70,11 +60,7 @@ body{
 nav
 {
     background-color: #3781FB;
-}
-
-nav a:hover
-{
-  color : #e12d4b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .logo{
@@ -132,9 +118,8 @@ li{
     margin-top: 2%;
 }
 
-.col-6{
-    background-color: #89c543;
-    box-shadow:  5px 5px 5px #585858;
+.col-lg-6{
+    background-color: #fff;
     padding: 15px;
 }
 .image-companie-de-provence{
@@ -145,8 +130,4 @@ li{
 
 .texte{
     text-align: center;
-}
-
-p{
-    color: #335e1e;
 }
